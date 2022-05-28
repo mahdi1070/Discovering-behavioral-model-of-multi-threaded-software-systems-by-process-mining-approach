@@ -1,0 +1,2 @@
+1	philosopherProblem2.App.main(java.lang.String[])	null	null	0
+2	philosopherProblem2.Philosopher.run()	philosopherProblem2.App.main(java.lang.String[])	philosopherProblem2.App.main(java.lang.String[])	1
