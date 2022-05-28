@@ -1,0 +1,5 @@
+1	pip2.PipeLine.main(java.lang.String[])	null	null	0
+2	pip2.Operation1.run()	pip2.PipeLine.main(java.lang.String[])	pip2.PipeLine.main(java.lang.String[])	1
+3	pip2.Operation2.run()	pip2.Operation1.run()	pip2.Operation1.run()	2
+4	pip2.Operation3.run()	pip2.Operation2.run()	pip2.Operation2.run()	3
+5	pip2.WriterResult.run()	pip2.Operation3.run()	pip2.Operation3.run()	4
