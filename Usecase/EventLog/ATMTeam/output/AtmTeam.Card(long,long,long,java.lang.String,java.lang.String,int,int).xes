@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- XES standard version: 1.0 -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/" xes.creator="Maikel Leemans - XesLitewrite Java">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<extension name="Software Application Locations" prefix="apploc" uri="http://www.processmining.org/apploc.xesext" />
+	<extension name="Software Application Runtime information" prefix="apprun" uri="http://www.processmining.org/apprun.xesext" />
+	<extension name="Software Application Communication information" prefix="appcomm" uri="http://www.processmining.org/appcomm.xesext" />
+	<classifier keys="concept:name" name="Event Name" />
+	<classifier keys="concept:name lifecycle:transition" name="(Event Name AND Lifecycle transition)" />
+	<classifier keys="apploc:caller:joinpoint apploc:caller:linenr apploc:joinpoint" name="Caller Joinpoint" />
+	<classifier keys="apploc:joinpoint apploc:linenr" name="Callee Joinpoint" />
+	<classifier keys="apploc:caller:joinpoint apploc:caller:linenr apploc:etype apploc:joinpoint" name="(Caller Joinpoint AND Software Event Type)" />
+	<classifier keys="apploc:etype apploc:joinpoint apploc:linenr" name="(Callee Joinpoint AND Software Event Type)" />
+	<global scope="event">
+		<string key="concept:name" value="string" />
+		<string key="lifecycle:transition" value="string" />
+		<date key="time:timestamp" value="1970-01-01T03:30:00+03:30" />
+		<string key="org:resource" value="string" />
+		<string key="apploc:joinpoint" value="string" />
+		<string key="apploc:app" value="string" />
+		<string key="apploc:caller:joinpoint" value="string" />
+		<int key="apploc:linenr" value="0" />
+		<string key="apploc:etype" value="string" />
+		<string key="apploc:idhashcode" value="string" />
+		<int key="apploc:caller:linenr" value="0" />
+		<string key="apploc:caller:idhashcode" value="string" />
+		<string key="apploc:filename" value="string" />
+		<string key="apploc:node" value="string" />
+		<string key="apploc:tier" value="string" />
+		<string key="apploc:regionstr" value="string" />
+		<string key="apploc:caller:filename" value="string" />
+		<string key="apprun:threadid" value="string" />
+		<string key="apprun:exthrowtype" value="string" />
+		<int key="apprun:nanotime" value="0" />
+		<string key="apprun:excatchtype" value="string" />
+		<string key="appcomm:localport" value="string" />
+		<string key="appcomm:localhost" value="string" />
+		<string key="appcomm:remoteport" value="string" />
+		<string key="appcomm:remotehost" value="string" />
+	</global>
+	 <trace>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:46.581+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="465956983" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196744411689700" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:48.492+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1696662399" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196746322185600" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:48.854+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1360894363" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196746685207400" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:49.073+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="247047865" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196746904104800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:49.987+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="582112823" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196747817102900" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:50.363+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1426136777" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196748193947400" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:50.730+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="185754774" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196748560102000" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:51.355+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="830539134" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196749185871200" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:51.962+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="277007872" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196749792183200" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:52.424+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="497749689" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196750255271300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:52.564+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="113981354" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196750394022300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:53.663+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="614680117" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196751493176300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:54.836+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1146582064" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196752666550400" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:55.379+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1646679564" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196753209734400" />
+		</event>
+	 </trace>
+	 <trace>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:45.957+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1287799783" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196743787514800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:47.743+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1841367619" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196745573388500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:48.318+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1582847974" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196746148266700" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:48.635+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1982050280" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196746464871200" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:49.236+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1047647355" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196747066009200" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:50.956+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="734240417" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196748786873700" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:51.201+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1454652212" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196749031421000" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:51.507+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="425846423" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196749338257500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:51.666+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="2072963632" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196749497242500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:53.866+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1492796383" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196751697072500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:54.005+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1884605291" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196751835014000" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:54.159+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="156288514" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196751988811300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:54.632+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1528930310" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196752461992100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:54.994+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="255638363" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196752825124000" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:55.216+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1673639186" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196753046433500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:55.512+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="5679995" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196753342850400" />
+		</event>
+	 </trace>
+	 <trace>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:46.260+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1261729356" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196744091018100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:46.886+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1822428066" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196744716075400" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:47.022+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="260061620" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196744853218000" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:47.193+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1822635702" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196745023347800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:47.291+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1082541866" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196745121130500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:47.527+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1696605025" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196745357649100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:47.906+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="842174511" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196745735984500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:48.114+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1815586399" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196745943922600" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:49.379+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1694181429" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196747210103600" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:49.466+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1715085462" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196747296944300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:49.627+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="384844088" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196747457856000" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:49.840+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1040770172" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196747670873800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:50.124+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="81649593" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196747954530500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:50.206+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1779305547" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196748036410100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:50.577+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1425919659" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196748407085400" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:52.109+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="789196433" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196749940355400" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:52.201+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="2120429145" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196750031241800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:52.694+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1752734006" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196750524623100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:52.995+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1141035146" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196750825610300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:53.148+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1804337221" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196750979349500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:53.514+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="2001170249" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196751344213600" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:54.327+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="589548274" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196752156968100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:54.443+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1470794992" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196752273899700" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:52:55.669+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1758398764" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196753500051600" />
+		</event>
+	 </trace>
+	 <trace>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:44.660+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="788835574" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196622490156200" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:45.245+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="316080544" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196623075935800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:45.939+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="77586034" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196623769603500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:46.263+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="715765586" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196624093520300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:46.639+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1016143958" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196624469371800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:47.777+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="33135621" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196625607693300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:48.143+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1732919167" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196625973454500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:49.044+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="393595333" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196626874267300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:50.196+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="2007012131" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196628026698300" />
+		</event>
+	 </trace>
+	 <trace>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:43.572+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1846982653" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196621402348900" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:43.938+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1223837433" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196621768252200" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:44.315+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1249796930" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196622145329400" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:46.424+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1783023955" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196624254691100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:46.933+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="863548975" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196624762777400" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:47.363+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="499574577" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196625193992100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:48.410+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1738556173" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196626240735900" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:49.383+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1240530450" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196627213545600" />
+		</event>
+	 </trace>
+	 <trace>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:44.510+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="2053226663" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196622340864800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:44.891+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1889119191" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196622721775000" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:44.963+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1437914351" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196622793416400" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:45.119+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1782456700" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196622950234100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:46.144+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1419806399" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196623973874800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:48.613+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="995613195" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196626442897300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:48.869+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1848000363" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196626698968000" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:49.242+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1722009035" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196627071987100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:49.702+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1444058567" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196627531873600" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:49.803+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1035346397" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196627633400500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:49.961+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="396240392" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196627791874200" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:50.048+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="123503248" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196627878296000" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:50.383+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="61847715" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196628212855100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:50.548+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="638850885" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196628378806000" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:50.737+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="974657234" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196628568317300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:50.921+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="899301151" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196628751499300" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:51.129+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1551012413" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196628959396900" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:51.258+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1043272152" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196629089180800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:51.595+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="976062540" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196629425353700" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:50:51.794+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="2027224293" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196629624765400" />
+		</event>
+	 </trace>
+	 <trace>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:12.977+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="465956983" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196830807214800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:13.346+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="13" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1696662399" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="13" />
+			<string key="apprun:nanotime" value="196831176623400" />
+		</event>
+	 </trace>
+	 <trace>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:10.460+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1287799783" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196828290745700" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:10.727+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1189448986" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196828557615500" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:11.648+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="992923004" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196829478026800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:12.655+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1439064242" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196830485770000" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:13.178+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="14" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="362215942" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="14" />
+			<string key="apprun:nanotime" value="196831008769600" />
+		</event>
+	 </trace>
+	 <trace>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:11.357+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1261729356" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196829187392800" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:11.467+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="889237053" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196829297052400" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:11.892+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="141598219" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196829722735600" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:11.999+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1499730180" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196829829221900" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:12.149+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1290798211" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196829979798100" />
+		</event>
+		<event>
+			<string key="concept:name" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<date key="time:timestamp" value="2021-04-01T20:54:12.501+04:30" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="org:resource" value="15" />
+			<string key="apploc:app" value="Nameless App" />
+			<string key="apploc:tier" value="Nameless Tier" />
+			<string key="apploc:node" value="Nameless Node" />
+			<string key="apploc:etype" value="return_new" />
+			<string key="apploc:joinpoint" value="AtmTeam.Card(long,long,long,java.lang.String,java.lang.String,int,int)" />
+			<string key="apploc:filename" value="Card.java" />
+			<int key="apploc:linenr" value="13" />
+			<string key="apploc:idhashcode" value="1090465805" />
+			<string key="apploc:regionstr" value="" />
+			<string key="apprun:threadid" value="15" />
+			<string key="apprun:nanotime" value="196830331869000" />
+		</event>
+	 </trace>
+</log>
