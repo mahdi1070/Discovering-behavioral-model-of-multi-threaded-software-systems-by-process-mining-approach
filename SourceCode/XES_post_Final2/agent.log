@@ -1,0 +1,9 @@
+16:43:43.852 [main] INFO  multitier_log_agent.log_agent.Agent - Parsing configurations
+16:43:43.899 [main] WARN  multitier_log_agent.log_agent.config.ConfigParser - Could not load configuration file, using default settings
+16:43:43.937 [main] INFO  multitier_log_agent.log_agent.Agent - Configuring logger client code transformer
+16:43:44.037 [main] DEBUG multitier_log_agent.log_agent.Agent - Prepare ClassPool Default
+16:43:44.037 [main] DEBUG multitier_log_agent.log_agent.Agent - Successfully prepared ClassPool Default
+16:43:44.037 [main] DEBUG multitier_log_agent.log_agent.Agent - Prepare ClassLoader Default
+16:43:44.037 [main] DEBUG multitier_log_agent.log_agent.Agent - Successfully prepared ClassLoader Default
+16:43:44.053 [main] INFO  multitier_log_agent.log_agent.Agent - Setup client logger targeting: localhost:9000 via UDP
+16:43:44.053 [main] INFO  multitier_log_agent.log_agent.Agent - Attaching logger client code transformer
