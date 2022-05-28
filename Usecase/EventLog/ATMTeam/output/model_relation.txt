@@ -1,0 +1,4 @@
+1	AtmTeam.Team.main(java.lang.String[])	null	null	0
+2	AtmTeam.Operation1.run()	AtmTeam.Team.main(java.lang.String[])	AtmTeam.Team.InitilizeThreads(java.util.List)	1
+3	AtmTeam.Operation2.run()	AtmTeam.Team.main(java.lang.String[])	AtmTeam.Team.InitilizeThreads(java.util.List)	1
+4	AtmTeam.Operation3.run()	AtmTeam.Team.main(java.lang.String[])	AtmTeam.Team.InitilizeThreads(java.util.List)	1
