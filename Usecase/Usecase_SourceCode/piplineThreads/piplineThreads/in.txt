@@ -1,0 +1,10 @@
+add 51 85 subtraction 10 multiply 2
+add 20 16 subtraction 48 multiply -5
+add 52 88 subtraction 9 multiply -2
+add 42 -3 subtraction 16 multiply -5
+add 14 17 subtraction 38 multiply 3
+add 26 53 subtraction 6 multiply 0
+add 71 33 subtraction 58 multiply -1
+add 10 35 subtraction 23 multiply -5
+add 54 13 subtraction 25 multiply 3
+add 68 66 subtraction 35 multiply 3
