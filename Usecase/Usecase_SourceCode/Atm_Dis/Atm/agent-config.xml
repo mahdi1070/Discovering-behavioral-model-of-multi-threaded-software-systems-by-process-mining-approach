@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<config>
+	<!-- Target server to steam log events to -->
+	<logserver>
+		<host>localhost</host>
+		<port>9000</port>
+		<type>udp</type>
+	</logserver>
+
+	<!-- Code transformation rules configuration -->
+	<transformation-rules>
+
+	<!--	 Log main method -->
+	<!--	<method-pointcut>
+			<include>atmDis.DispatcherWorkerMain.main(*</include>
+			<trace-catch>true</trace-catch>
+			<trace-constructor>true</trace-constructor>
+			<trace-params>true</trace-params>
+		</method-pointcut>
+-->
+
+		<!-- Log method calls -->
+	<!--	<method-call-pointcut>
+			<include>atmDis.*</include>
+			<call-pattern>atmDis.*</call-pattern>
+			<trace-catch>true</trace-catch>
+			<trace-constructor>true</trace-constructor>
+			<trace-params>true</trace-params>
+		</method-call-pointcut>
+
+-->
+
+
+	<!--	 Log main method -->
+	 <method-pointcut>
+			<include>AtmTeam.*</include>
+			<trace-catch>true</trace-catch>
+			<trace-constructor>true</trace-constructor>
+	</method-pointcut>
+
+	</transformation-rules>
+</config>
